@@ -2,6 +2,7 @@
 #include<Windows.h>
 #include"Fighter.h"
 #include"FighterGame.h"
+#include "Consumable.h"
 using namespace std;
 
 int numChecker();

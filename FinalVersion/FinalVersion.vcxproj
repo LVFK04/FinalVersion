@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -142,8 +142,10 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="FighterGame.cpp" />
     <ClCompile Include="Fighter.cpp" />
+    <ClCompile Include="Item.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Consumable.h" />
     <ClInclude Include="FighterGame.h" />
     <ClInclude Include="Fighter.h" />
   </ItemGroup>
